@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4LabaAppz(1)", "4LabaAppz(1)\4LabaAppz(1).csproj", "{94C02419-7798-4189-9455-EEA97B96EDE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4LabaAppz(1)", "4LabaAppz(1)\4LabaAppz(1).csproj", "{94C02419-7798-4189-9455-EEA97B96EDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlacesDB", "PlacesDB\PlacesDB.csproj", "{1E44328D-3E10-4E72-BA0C-E0BAB9E6C524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlacesDB", "PlacesDB\PlacesDB.csproj", "{1E44328D-3E10-4E72-BA0C-E0BAB9E6C524}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.ConsoleApp", "FinanceManager.ConsoleApp\FinanceManager.ConsoleApp.csproj", "{D692DDC5-78E9-4291-BFE2-0B2FEACCECDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.BLL", "FinanceManager.BLL\FinanceManager.BLL.csproj", "{B9BE55C9-2220-43AF-93D8-A4ED6FE7C79B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceManager.BLL.Tests", "TestProject1\FinanceManager.BLL.Tests.csproj", "{5A519F05-E947-4189-9E06-4DE82BFA297E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{1E44328D-3E10-4E72-BA0C-E0BAB9E6C524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E44328D-3E10-4E72-BA0C-E0BAB9E6C524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E44328D-3E10-4E72-BA0C-E0BAB9E6C524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D692DDC5-78E9-4291-BFE2-0B2FEACCECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692DDC5-78E9-4291-BFE2-0B2FEACCECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D692DDC5-78E9-4291-BFE2-0B2FEACCECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D692DDC5-78E9-4291-BFE2-0B2FEACCECDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BE55C9-2220-43AF-93D8-A4ED6FE7C79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BE55C9-2220-43AF-93D8-A4ED6FE7C79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BE55C9-2220-43AF-93D8-A4ED6FE7C79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BE55C9-2220-43AF-93D8-A4ED6FE7C79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A519F05-E947-4189-9E06-4DE82BFA297E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A519F05-E947-4189-9E06-4DE82BFA297E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A519F05-E947-4189-9E06-4DE82BFA297E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A519F05-E947-4189-9E06-4DE82BFA297E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
